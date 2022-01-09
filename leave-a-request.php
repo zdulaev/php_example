@@ -12,6 +12,7 @@
             <input type="password" name="password" value="<?=$_SESSION['password']?>" placeholder="Придумайте пароль" class="form-control"><br>
             <input type="password" name="check_password" value="<?=$_SESSION['password']?>" placeholder="Подтвердите пароль" class="form-control"><br>
             <input type="number" name="age" value="<?=$_SESSION['number']?>" placeholder="Введите свой возраст" class="form-control"><br>
+            <textarea name="message" placeholder="Ваше сообщение" class="form-control"></textarea><br>
         </label><br>
         <input type="submit" value="Отправить" class="btn btn-success">
     </form>

@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    $names = ['username', 'email', 'password', 'age'];
+    $names = ['username', 'email', 'age'];
 
 
     foreach ($names as $name) {
