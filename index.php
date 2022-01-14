@@ -1,5 +1,6 @@
+<?php require_once  'bootstrap.php'; ?>
 <?php
-    session_start();
+    // session_start();
     $title = 'Главная страница';
     require 'blocks/header.php';
 ?>

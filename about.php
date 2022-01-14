@@ -1,3 +1,4 @@
+<?php require_once  'bootstrap.php'; ?>
 <?php
     $title = 'Кто мы?';
     require 'blocks/header.php';
